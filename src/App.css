@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=42dot+Sans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Varela+Round&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: "Poppins", serif;
+    background: #F1EDEE;
+    /* background-color: red; */
+} 
+
+.container{
+    max-width: 1180px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    height: 100vh;
+}
+
+h1{
+    font-size: 96px;
+}
+
+.play_btn{
+
+    border-radius: 5px;
+    padding: 10px 18px;
+    background: #000000;
+    border-radius: 5px;
+    color: white;
+    min-width: 220px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.4s background ease-in;
+    border: 2px solid transparent;
+
+}
+
+.play_btn:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    transition: 0.3s background ease-in;
+}
+
+.ScoreContainer {
+    max-width: 200px;
+    text-align: center;
+}
+
+.ScoreContainer h1{
+    font-size: 100px;
+    line-height: 100px;
+} 
+
+
+.ScoreContainer p{
+    font-size: 20px;
+    font-weight: 500px;
+
+}
+
+.box{
+    height: 72px;
+    width: 72px;
+    border: 2px solid black;
+    display: grid;
+    place-items: center;
+    font-size: 24px;
+    font-weight: 700px;
+}
