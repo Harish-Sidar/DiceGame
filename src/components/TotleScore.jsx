@@ -1,10 +1,10 @@
 import React from 'react'
 
-const TotleScore = () => {
+const TotleScore = ({score}) => {
   return (
     <div className='ScoreContainer'>
     
-    <h1>0</h1>
+    <h1>{score}</h1>
     <p>Totle Score</p>
     
     </div>
